@@ -50,12 +50,12 @@
   font-weight: bold;
 }
 
-/** box-30 **/
+/** box-3 **/
 
 .navbar-search {
   display: flex;
   justify-content: space-evenly;
-  width: 1280px;
+  width: 950px;
   height: 40px;
   margin-left: 10px;
   border-radius: 4px;
@@ -143,10 +143,6 @@
 
 .panel-all {
   margin-left: 10px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 700;
-  font-size: 0.9rem;
 }
 
 .panel-optns p {
@@ -164,4 +160,99 @@
   margin-right: 35px;
   font-size: 1rem;
   font-weight: 700;
+}
+
+/** hero-section **/
+
+.hero-section {
+  background-image: url(assets/hero_image.jpg);
+  background-size: cover;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-text {
+  height: 40px;
+  width: 92%;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.hero-text a {
+  color: #007185;
+}
+
+.hero-text p {
+  font-size: 0.85rem;
+}
+
+/** shop section **/
+
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 400px;
+  width: 22%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+
+.box-img {
+  margin: 2px;
+  height: 350px;
+  background-size: cover;
+}
+
+.box-con {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.box-con a {
+  color: #007185;
+}
+
+/** Footer-section **/
+
+.footer-nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #37475a;
+}
+
+.footer-nav a {
+  color: white;
+}
+
+.footer-panel {
+  height: 300px;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-panel ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+ul li {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #dddddd;
 }
